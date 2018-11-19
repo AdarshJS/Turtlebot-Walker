@@ -4,12 +4,20 @@
         value="$(find turtlebot_walker)/config/logger_level.conf"
     />
     <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch"></include>
-
+	<arg name = "runRosbag" default= "false" />
+	
     <node
         pkg="turtlebot_walker"
         name="walker"
         type="walker"
         output="screen"
+    />
+    <node
+        pkg="rosbag"
+        name="record"
+        type="record"
+        args="-a -x /camera/(.*) -O $(find turtlebot_walker)/results/walker.bag"
+        if="$(arg runRosbag)"
     />
    
 </launch>
