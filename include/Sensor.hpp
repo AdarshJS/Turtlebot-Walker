@@ -49,7 +49,7 @@
 
 class Sensor{
  private:
-  bool collisionFlag = false;
+  bool collisionFlag;
 
  public:
   /**
