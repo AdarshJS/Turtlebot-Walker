@@ -1,0 +1,12 @@
+Done processing main.cpp
+Done processing MoveRobot.cpp
+Sensor.cpp:47:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+Sensor.cpp:47:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]
+Sensor.cpp:54:  Missing spaces around <<  [whitespace/operators] [3]
+Done processing Sensor.cpp
+Total errors found: 3
+
+Done processing MoveRobot.hpp
+Done processing Sensor.hpp
+
+
