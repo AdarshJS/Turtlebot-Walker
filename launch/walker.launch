@@ -1,0 +1,17 @@
+<launch>
+ 	<env
+        name="ROSCONSOLE_CONFIG_FILE"
+        value="$(find turtlebot_walker)/config/logger_level.conf"
+    />
+    <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch"></include>
+
+    <node
+        pkg="turtlebot_walker"
+        name="walker"
+        type="walker"
+        output="screen"
+    />
+   
+</launch>
+
+
