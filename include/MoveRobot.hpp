@@ -1,5 +1,5 @@
-#ifndef TURTLEBOT_WALKER_INCLUDE_MOVEROBOT_HPP_
-#define TURTLEBOT_WALKER_INCLUDE_MOVEROBOT_HPP_
+#ifndef INCLUDE_MOVEROBOT_HPP_
+#define INCLUDE_MOVEROBOT_HPP_
 
 /**
  * Copyright (c) 2018, Adarsh Jagan Sathyamoorthy
@@ -85,4 +85,4 @@ class MoveRobot {
 
 
 
-#endif /* TURTLEBOT_WALKER_INCLUDE_MOVEROBOT_HPP_ */
+#endif  // INCLUDE_MOVEROBOT_HPP_
