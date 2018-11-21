@@ -65,6 +65,10 @@ There is an argument that you can specify with the roslaunch file which can be s
 ```
 roslaunch turtlebot_walker walker.launch runRosbag:=true
 ```
-The rosbag file will be stored in the results folder inside the turtlebot_walker package.
+The rosbag file will be stored in the results folder inside the turtlebot_walker package. To run the simulation without the rosbag:
+
+```
+roslaunch turtlebot_walker walker.launch runRosbag:=false
+``` 
 
 
